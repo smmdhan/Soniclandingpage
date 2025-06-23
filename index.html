@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sonic | The Punter Station</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    .swiper-container {
+      height: 100vh;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    /* Entry animation (applied only on load) */
+    .entry-animate {
+      animation: entryIn 0.6s ease-out forwards;
+    }
+
+    @keyframes entryIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.92) translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 20%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .overlay h2 {
+      font-size: 1.8em;
+      margin: 10px 0;
+    }
+
+    .overlay h4, .overlay h1 {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .telegram-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 16px 36px;
+      border-radius: 40px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+      background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, violet, red);
+      background-size: 1600% 1600%;
+      animation: colorShift 8s ease infinite, flicker 1.2s infinite;
+      box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    }
+
+    .telegram-btn img {
+      width: 28px;
+      height: 28px;
+    }
+
+    @keyframes colorShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      45% { opacity: 0.85; }
+      60% { opacity: 0.4; }
+      75% { opacity: 0.9; }
+    }
+
+    .countdown {
+      margin-top: 18px;
+      font-size: 1.05em;
+      font-weight: 600;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 22px;
+      border-radius: 24px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="swiper-container entry-animate">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide" style="background-image: url('Picsart_25-06-23_15-59-42-150.jpg');">
+        <div class="overlay">
+          
+          <h4 style="color:#FFD700;">𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝙁𝙄𝙍𝙎𝙏 🥇 & 𝘽𝙀𝙎𝙏 𝙇𝙀𝘼𝙆𝙀𝙍 🏅 
+𝙁𝙍𝙀𝙀 𝙇𝙀𝘼𝙆𝙎 , 𝘾𝙍𝙄𝘾𝙆𝙀𝙏 𝙐𝙋𝘿𝘼𝙏𝙀𝙎......</h4>
+<br>
+          <h4>𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝘽𝙄𝙂𝙂𝙀𝙎𝙏 𝙋𝙐𝙉𝙏𝙀𝙍 𝙃𝙐𝘽</h4>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        
+          <a href="https://t.me/+29cg-2IgucYwMGQ1" class="telegram-btn">
+            Join The Original 𝐒𝐎𝐍𝐈𝐂
+            <img src="telegram-apps-icon-free-png.png" alt="Telegram" />
+          </a>
+          <div class="countdown">
+            FREE JOINING ENDS IN <span id="timer">30</span> SECONDS
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide" style="background-image: url('2d2e2639dd086a3bec3d1f0afb25635b.jpg');">
+        <div class="overlay">
+            <h2>𝐒𝐎𝐍𝐈𝐂 (𝓣𝓱𝓮 𝓟𝓾𝓷𝓽𝓮𝓻 𝓢𝓽𝓪𝓽𝓲𝓸𝓷 )</h2>
+          <h4 style="color:#FF4C4C;">FOOTBALL PREDICTIONS + CRICKET PREDICTIONS + TENNIS PREDICTIONS + MARKET LEAKS + TOSS PREDICTIONS + MARKET LOAD
+ALL IN ONE PLACE
+
+THE PERFECT STATION FOR PUNTERS</h4>
+          <h1>REAL WINNING</h1>
+          <a href="https://t.me/+29cg-2IgucYwMGQ1" class="telegram-btn">
+            Join The Original 𝐒𝐎𝐍𝐈𝐂
+            <img src="telegram-apps-icon-free-png.png" alt="Telegram" />
+          </a>
+          <div class="countdown">
+            FREE JOINING ENDS IN <span id="timer-copy">30</span> SECONDS 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: { delay: 3000 },
+    });
+
+    let timer = 30;
+    const timerEl1 = document.getElementById("timer");
+    const timerEl2 = document.getElementById("timer-copy");
+
+    const countdown = setInterval(() => {
+      timer--;
+      timerEl1.textContent = timer;
+      timerEl2.textContent = timer;
+      if (timer <= 0) {
+        clearInterval(countdown);
+        window.location.href = "https://t.me/+29cg-2IgucYwMGQ1";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
